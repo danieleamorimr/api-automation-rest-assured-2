@@ -108,7 +108,7 @@ public class BookingTests {
                 .body(booking)
                 .post("/booking")
                 .then()
-                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("createBookingRequestSchema.json"))
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("createBookingResponseSchema.json"))
                 .and()
                 .assertThat()
                 .statusCode(200)

@@ -5,17 +5,17 @@ public class Booking {
     private String firstname;
     private float totalprice;
     private boolean depositpaid;
-    private BookingDates bookingDates;
+    private BookingDates bookingdates;
     private String additionalneeds;
     
     
-    public Booking(String lastname, String firstname, float totalprice, boolean depositpaid, BookingDates bookingDates,
+    public Booking(String lastname, String firstname, float totalprice, boolean depositpaid, BookingDates bookingdates,
             String additionalneeds) {
         this.lastname = lastname;
         this.firstname = firstname;
         this.totalprice = totalprice;
         this.depositpaid = depositpaid;
-        this.bookingDates = bookingDates;
+        this.bookingdates = bookingdates;
         this.additionalneeds = additionalneeds;
 
         
@@ -53,12 +53,12 @@ public class Booking {
         this.depositpaid = depositpaid;
     }
 
-    public BookingDates getBookingDates() {
-        return bookingDates;
+    public BookingDates getBookingdates() {
+        return bookingdates;
     }
 
-    public void setBookingDates(BookingDates bookingDates) {
-        this.bookingDates = bookingDates;
+    public void setBookingdates(BookingDates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 
     public String getAdditionalneeds() {
