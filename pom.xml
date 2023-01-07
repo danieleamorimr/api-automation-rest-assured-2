@@ -18,7 +18,7 @@
         <aspectj.version>1.9.9.1</aspectj.version>
         <allure.version>2.19.0</allure.version>
         <allure.cmd.download.url>
-            https://repo.maven.apache.org/maven2/io/qameta/allure/allure_CommandLine
+            https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline
         </allure.cmd.download.url>
     </properties>
 

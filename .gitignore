@@ -3,6 +3,7 @@
 
 .idea/*
 .allure/*
+.vscode/*
 
 ### Java ###
 # Compiled class file
