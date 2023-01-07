@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: BookingTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.96 s <<< FAILURE! - in BookingTests
+CreateBooking_WithValidData_returnOk  Time elapsed: 3.793 s  <<< ERROR!
+io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 9]
+	at BookingTests.CreateBooking_WithValidData_returnOk(BookingTests.java:111)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'Internal': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 1, column: 9]
+	at BookingTests.CreateBooking_WithValidData_returnOk(BookingTests.java:111)
+
